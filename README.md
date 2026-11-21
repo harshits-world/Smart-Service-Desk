@@ -43,3 +43,8 @@ python main.py
 Development work is performed in the development branch.
 After testing, development is merged into main.
 The final working application is maintained in main.
+
+
+## Development Status
+The project is developed and tested using a separate development branch.
+All completed changes are merged into the main branch after verification.
