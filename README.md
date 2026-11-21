@@ -48,3 +48,15 @@ The final working application is maintained in main.
 ## Development Status
 The project is developed and tested using a separate development branch.
 All completed changes are merged into the main branch after verification.
+
+## Error Handling
+The application uses custom exceptions to handle:
+- Duplicate service request IDs
+- Requests that cannot be found
+- Invalid priority values
+- Invalid menu choices
+- Empty menu input
+
+## Data Persistence
+All service requests are stored in `data/requests.json`.
+The application loads existing requests when it starts and saves changes automatically.
