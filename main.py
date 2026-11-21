@@ -35,6 +35,10 @@ def main():
 
         choice = input("\nEnter your choice: ").strip()
 
+        if not choice:
+            print("\nInput cannot be empty.")
+            continue
+
         try:
 
             if choice == "1":
